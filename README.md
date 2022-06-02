@@ -1,2 +1,2 @@
 # About
-first readme about C language
+first readme for this C repo
