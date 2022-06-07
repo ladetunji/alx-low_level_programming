@@ -8,6 +8,7 @@ void print_alphabet(void)
 {
 	int i = 97;
 	bool a = true;
+
 	while (a)
 	{
 		_putchar(i);
