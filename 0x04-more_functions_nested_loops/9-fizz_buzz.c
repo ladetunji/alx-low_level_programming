@@ -2,7 +2,7 @@
 
 /**
  * main - prints the Fizz-Buzz test
- * 
+ *
  * Return: Always return 0
  */
 int main(void)
