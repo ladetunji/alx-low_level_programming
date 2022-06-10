@@ -4,7 +4,6 @@
  * print_triangle - Prints a triangle
  *
  * @size: size of triangle
- *
  */
 void print_triangle(int size)
 {
@@ -12,17 +11,19 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-	_putchar('\n');
+		_putchar('\n');
 	}
 	else
-{
-	for (j = size; j > i; j--)
 	{
-		_putchar(' ');
-		}
+		for (i = 1; i <= size; i++)
+		{
+			for (j = size; j > i; j--)
+			{
+				_putchar(' ');
+			}
 		for (k = 1; k <= j; k++)
 		{
-		har('#');
+			_putchar('#');
 		}
 		_putchar('\n');
 		}
